@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjonghoinside.github.io&count_bg=%236994EB&title_bg=%232C498A&icon=hey.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ### 방문해주셔서 감사합니다!👋
 현재 저는 C/C++ 개발자 및 ROS(Robot Operating System) 개발자를 목표로 공부하고 있습니다. <br> 시스템 시뮬레이션을 전공하여 AMHS 시뮬레이션 분석 업무로 1년 6개월 근무했습니다. <br>
 Simulation Model 개발은 시뮬레이션 언어로 진행하다 보니 다른 개발 언어를 배우고 싶은 꿈이 있어 <br> 퇴사 후 C/C++, Python, ROS를 공부하고 있습니다. <br>
