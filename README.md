@@ -1,22 +1,65 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjonghoinside.github.io&count_bg=%236994EB&title_bg=%232C498A&icon=hey.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
+# 안종호 (Jongho Ahn)
 
-### 방문해주셔서 감사합니다!👋
-현재 저는 C/C++ 개발자 및 ROS(Robot Operating System) 개발자를 목표로 공부하고 있습니다. <br> 시스템 시뮬레이션을 전공하여 AMHS 시뮬레이션 분석 업무로 1년 6개월 근무했습니다. <br>
-Simulation Model 개발은 시뮬레이션 언어로 진행하다 보니 다른 개발 언어를 배우고 싶은 꿈이 있어 <br> 퇴사 후 C/C++, Python, ROS를 공부하고 있습니다. <br>
-현재 ROS 기반 자율비행 드론 어플리케이션 개발자 교육을 받고 있으며, ROS 개발 프로젝트를 준비 중에 있습니다. <br>
-좀 더 자세한 [자기 소개 글](https://jonghoinside.github.io/blog/01.-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%9E%90%EA%B8%B0-%EC%86%8C%EA%B0%9C-(TMI-%EC%A3%BC%EC%9D%98!!-))은 여기 들어가시면 확인하실 수 있습니다! 자주 방문해주세요!
-<!--
-### 😄 Introduction
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- ⚡ Fun fact: ...
--->
-### ⚒️ Skills
-- C/C++
-- Python
-- Simulation Programing
-- AnyLogic(Java)
-- AutoMod
+**물류 자동화 시뮬레이션 · 인터페이스 엔지니어** — SFA 물류연구소 S/W팀 선임
+
+물류 자동화 현장의 운영 시스템(WCS/WMS)과 **같은 인터페이스로 동작하는 검증용 에뮬레이터**를 만들고, **OR-Tools CP-SAT 최적화**를 개발해 운영 시스템에 연동하며, 오픈·양산 단계에는 **현장에 상주해 설계와 실제 거동의 차이를 찾아 조치**합니다.
+
+📧 jonghoinside@gmail.com
+
+---
+
+## 경력
+
+| 기간 | 소속 | 역할 |
+|---|---|---|
+| 2021.08 ~ 현재 | **SFA 물류연구소 S/W팀** 선임 | 물류 시뮬레이션·에뮬레이션, 최적화, 인터페이스 설계, 현장 안정화. 팀 내 시뮬레이션 모델 전담 |
+| 2025.10 ~ 2026.05 | SFA 자율제조 TF (파견) | AI와 현장 운영 시스템을 잇는 인터페이스 설계, AI 학습용 시뮬레이션 테스트베드 구축 |
+| 2021.03 ~ 2021.08 | ROS 자율 드론 개발자 과정 | Python·ROS 기반 자율비행 프로젝트 |
+| 2019.10 ~ 2021.02 | 시너스텍 연구개발팀 | 반도체·디스플레이 AMHS(Stocker·OHT·AGV) 물동량 시뮬레이션·분석 |
+
+산업경영공학 학사.
+
+---
+
+## 프로젝트 경험
+
+- **완성차 공장 부품 물류 WCS 테스트베드** — 컨베이어·자동창고·GTP·피킹 로봇을 AutoMod 에뮬레이터로 구현하고 WCS DB와 다중 세션으로 명령·상태를 주고받는 인터페이스를 설계. 실물 설비 없이 상위 시스템 연동 통합 테스트와 에러 복구 시나리오 검증
+- **물류센터 주문·배치 최적화 운영 적용 (2건)** — CP-SAT 최적화를 개발해 Flask REST·DB 연동으로 운영 WMS에 붙이고, 효과를 현장 실적과 운영 DB로 확인. 룰베이스와 병행 비교 운영
+- **대형 이커머스 물류센터 오픈 → 양산 상주 (11개월)** — 층 단위 WCS 테스트베드로 통합 테스트 후 현장 상주. 예상 물동량 미달의 원인을 자동화 밖 피킹 동선에서 찾아 시뮬레이션과 CP-SAT 주문 배치로 개선안을 만들고 고객사와 현장 비교 테스트
+- **가상 PLC · 가상 작업자 에뮬레이터** — 협력사 C# 시뮬레이터를 분석해 Python 가상 PLC(Melsec MC 3E)로 재구현하고 실 WCS와 3자 연동. 오픈 전 물류 테스트에 필요한 수십 명의 작업자를 확률 모델(삼각분포·SKU별 회귀) 기반 가상 작업자로 대체
+- **WCS ↔ 시뮬레이터 소켓 인터페이스 규격 저작** — 실 WCS 시험 로그를 전수 분류해 명령·이벤트·NG·ACK 규격을 정의서로 동결하고, 완결 ACK 게이트로 실행 결정성을 확보한 뒤 정책 비교
+- **FMS 인수 시험(FAT) 환경** — OPC UA 서버(Python) 동적 생성, MES REST Mock, DB 이관으로 실 설비 없이 해외 현지 FAT 지원
+- **팔레트 피킹 조합 최적화 선행연구** — 1팔레트 → 2팔레트 조합 피킹 전환을 FIFO·GA·위치 순위 정렬·LP로 비교 분석 (단독 수행)
+- **AutoMod 개발 자동화** — AI 코딩 에이전트 위에 AutoMod 언어 린터·헤드리스 빌드·골든셋·회귀 하네스를 구축해 시뮬레이션 모델 개발·검증을 자동화
+- **반도체·디스플레이 AMHS 물동량 시뮬레이션** — Stocker·OHT·AGV 시스템의 설비 대수·처리량 분석, 강화학습 스케줄러 테스트용 소켓 연동 시뮬레이터
+
+> 2025년 이후 코드는 AI 코딩 에이전트와 공동으로 작성했으며, 인터페이스 규약·판정 기준·완료 판단은 직접 했습니다.
+
+---
+
+## 기술 스택
+
+| 분야 | 내용 |
+|---|---|
+| 시뮬레이션 | AutoMod (설비·물류 에뮬레이터, CAD → 모델 자동 생성), AnyLogic |
+| 최적화·분석 | OR-Tools CP-SAT, 선형회귀, GA · TSP 비교, pandas |
+| 인터페이스 | Socket (길이 프리픽스 프레이밍), REST (Flask), RabbitMQ, DB to DB (폴링·프로시저), OPC UA, Melsec MC 3E |
+| DB | Oracle, MSSQL, PostgreSQL |
+| 언어·프레임워크 | Python (asyncio, pytest, PyInstaller), AutoMod 언어, C# (읽기·분석) |
+| 도구 | draw.io 인터페이스 정의서, Git / SVN, Linux 서버 배포, AI 코딩 에이전트 기반 개발 자동화 |
+
+---
+
+## 일하는 방식
+
+- 시뮬레이션 산출값과 현장 실적을 구분해 보고하고, 수치에는 측정 조건을 함께 씁니다.
+- 인터페이스는 연결이 아니라 계약으로 봅니다. 실 로그를 전수 분류해 규격을 문서로 동결합니다.
+- 결과가 실행마다 달라지면 비교하지 않습니다. 결정성을 먼저 확보한 뒤 정책을 비교합니다.
+- 고친 뒤에는 회귀 테스트와 재현 절차를 남겨 다음 사람이 이어받을 수 있게 합니다.
+
+---
+
+## 공개 저장소
+
+- [EES-Develop](https://github.com/jonghoinside/EES-Develop) — 물류센터 테스트용 가상 작업자 에뮬레이터 설계 문서
+- [blog](https://jonghoinside.github.io) — 2021년 전환기 기록
